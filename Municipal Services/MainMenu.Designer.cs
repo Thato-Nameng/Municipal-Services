@@ -107,6 +107,7 @@
             this.btnEvents.Tag = "";
             this.btnEvents.Text = "Local Events";
             this.btnEvents.UseVisualStyleBackColor = false;
+            this.btnEvents.Click += new System.EventHandler(this.btnEvents_Click);
             // 
             // MainMenu
             // 

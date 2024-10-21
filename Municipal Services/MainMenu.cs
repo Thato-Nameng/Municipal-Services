@@ -23,5 +23,12 @@ namespace Municipal_Services
             this.Hide();
             reportForm.Show();
         }
+
+        private void btnEvents_Click(object sender, EventArgs e)
+        {
+            LocalEvents localEvents = new LocalEvents();
+            this.Hide();
+            localEvents.Show();
+        }
     }
 }
